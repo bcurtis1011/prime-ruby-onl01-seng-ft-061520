@@ -1,5 +1,5 @@
 def prime?(number)
-  (2..number-1).all? {|num| number%num != 0 && number%num < 0}
+  (2..number-1).all? {|num| number%num != 0 && number%num <= 0}
   
   end
 end
