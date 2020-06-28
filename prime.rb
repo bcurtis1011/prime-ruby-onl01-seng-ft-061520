@@ -12,5 +12,3 @@ def prime?(number)
 end
 
 
-# start with lower number in range.
-# condition to chek if negative and 0 = false
