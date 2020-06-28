@@ -1,6 +1,6 @@
 def prime?(number)
   test = (2..number-1).all? {|num| number%num != 0}
-  if test == number.negative?()
+  if test == number.negative?() || test == 0
     return false
   else
     return test
