@@ -1,1 +1,9 @@
-# Add  code here!
+def prime?(number)
+  (2..number-1).all? {|num| number%num != 0 && number%num < 0}
+  
+  end
+end
+
+
+# start with lower number in range.
+# condition to chek if negative and 0 = false
