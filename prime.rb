@@ -1,10 +1,10 @@
 def prime?(number)
-  if number == -1
-    false
+  test = (2..number-1).all? {|num| number%num != 0}
+  if test == number.negative?()
+    return false
+  else
+    return test
   end
-  
-  (2..number-1).all? {|num| number%num != 0}
-  
 end
 
 
